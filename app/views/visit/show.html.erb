@@ -1,0 +1,13 @@
+<h1>Visit#index</h1>
+<p>Find me in app/views/visit/index.html.erb</p>
+
+<% @users.each do |user| %>
+Name : <%= user.username %> <br>
+Yomi :<%= user.username_yomi %><br>
+Cmpname  : <%= user.companyname %><br>
+Yomi :<%= user.companyname_yomi %><br>
+TEL : <%= user.mobilenumber %> <br>
+Reason :<%= user.reason %><br>
+Staff : <%= user.staff %><br>
+Start :<%= user.start_at %><br>
+<% end %>
